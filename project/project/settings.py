@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-f8a^(-iny!5p8)&#elbo)kzs!23e5i%(dq2s7wgcu_8mdfpz)%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['3.39.195.196']
 
 
 # Application definition
@@ -53,12 +53,13 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'project.urls'
 
-TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
+# TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [TEMPLATE_DIR],
+        # 'DIRS': [TEMPLATE_DIR],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -87,7 +88,8 @@ DATABASES = {
         'PORT': '3306', # mysql 서버 서비스 포트
     }
 }
-
+import pymysql
+pymysql.install_as_MySQLdb()
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators

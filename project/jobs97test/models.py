@@ -1,16 +1,16 @@
 from django.db import models
 
 # Create your models here.
-class JobsTest(models.Model):
-    name = models.CharField(max_length=50)
-    address = models.CharField(max_length=50)
-    link = models.CharField(max_length=200)
-    lat = models.FloatField()
-    lng = models.FloatField()
+# class JobsTest(models.Model):
+#     name = models.CharField(max_length=50)
+#     address = models.CharField(max_length=50)
+#     link = models.CharField(max_length=200)
+#     lat = models.FloatField()
+#     lng = models.FloatField()
 
-class ReviewTests(models.Model):
+class ReviewTest(models.Model):
     name = models.CharField(max_length=50)
-    address = models.CharField(max_length=50)
+    address = models.CharField(max_length=200)
     link = models.CharField(max_length=200)
     lng = models.FloatField()
     lat = models.FloatField()

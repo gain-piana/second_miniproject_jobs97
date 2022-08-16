@@ -43,6 +43,10 @@
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
+          
+
+
+
             <li class="nav-item active">
                 <a class="nav-link" href="index.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
@@ -56,7 +60,7 @@
             <div class="sidebar-heading">
                 Interface
             </div>
-
+            
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
@@ -80,16 +84,6 @@
                     <i class="fas fa-fw fa-wrench"></i>
                     <span>기업 소개</span>
                 </a>
-                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-                    data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Utilities:</h6>
-                        <a class="collapse-item" href="utilities-color.html">Colors</a>
-                        <a class="collapse-item" href="utilities-border.html">Borders</a>
-                        <a class="collapse-item" href="utilities-animation.html">Animations</a>
-                        <a class="collapse-item" href="utilities-other.html">Other</a>
-                    </div>
-                </div>
             </li>
 
             <!-- Divider -->
@@ -107,26 +101,28 @@
                     <i class="fas fa-fw fa-folder"></i>
                     <span>기업 평점</span>
                 </a>
-                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Login Screens:</h6>
-                        <a class="collapse-item" href="login.html">Login</a>
-                        <a class="collapse-item" href="register.html">Register</a>
-                        <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
-                        <div class="collapse-divider"></div>
-                        <h6 class="collapse-header">Other Pages:</h6>
-                        <a class="collapse-item" href="404.html">404 Page</a>
-                        <a class="collapse-item" href="blank.html">Blank Page</a>
-                    </div>
-                </div>
             </li>
 
             <!-- Nav Item - Charts -->
+            <!-- <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
+                    aria-expanded="true" aria-controls="collapsePages">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>팀원 소개</span>
+                </a>
+            </li> -->
+            
             <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>팀원 소개</span></a>
+                <a class="nav-link collapsed" href="#team" data-toggle="collapse" data-target="#collapsePages"
+                    aria-expanded="true" aria-controls="collapsePages">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>팀원 소개</span>
+                </a>
             </li>
+
+            
+
+
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 
@@ -585,31 +581,33 @@
                         <div class="col-lg-3 mb-2">
 
                             <!-- Project Card Example -->
-                            <div class="card shadow mb-4">
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">팀원 소개</h6>
-                                </div>
-                                <div class="card-body">
-                                    <div class="text-center">
-                                        <h6 class="m-0 font-weight-bold text-info">팀장 이희준</h6>
-                                        <img src="/static/img/princess.png" alt="이희준" width="150"
-                                        >
+                            <div id="team">
+                                <div class="card shadow mb-4">
+                                    <div class="card-header py-3">
+                                        <h6 class="m-0 font-weight-bold text-primary">팀원 소개</h6>
                                     </div>
-                                </div>
-                                <div class="card-body">
-                                    <div class="text-center">
-                                        <h6 class="m-0 font-weight-bold text-success">조원 이승연</h6>
-                                        <img src="/static/img/queen.png" alt="이승연" width="150">
+                                    <div class="card-body">
+                                        <div class="text-center">
+                                            <h6 class="m-0 font-weight-bold text-info">팀장 이희준</h6>
+                                            <img src="/static/img/princess.png" alt="이희준" width="150"
+                                            >
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="card-body">
-                                    <div class="text-center">
-                                        <h6 class="m-0 font-weight-bold text-primary">조원 이혜진</h6>
-                                        <img src="/static/img/beauty.png" alt="이혜진" width="150">
+                                    <div class="card-body">
+                                        <div class="text-center">
+                                            <h6 class="m-0 font-weight-bold text-success">조원 이승연</h6>
+                                            <img src="/static/img/queen.png" alt="이승연" width="150">
+                                        </div>
                                     </div>
-                                </div>
+                                    <div class="card-body">
+                                        <div class="text-center">
+                                            <h6 class="m-0 font-weight-bold text-primary">조원 이혜진</h6>
+                                            <img src="/static/img/fitness.png" alt="이혜진" width="150">
+                                        </div>
+                                    </div>
                                 
-                            
+                                
+                                </div>
                             </div>
 
                           

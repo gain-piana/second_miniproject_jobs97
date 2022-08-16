@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import JobsTest
+from .models import ReviewTest
 
 # Register your models here.
-admin.site.register(JobsTest)
+admin.site.register(ReviewTest)

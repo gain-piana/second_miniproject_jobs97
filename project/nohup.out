@@ -1,0 +1,39 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 12, 2022 - 17:48:38
+Django version 3.2, using settings 'project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[12/Aug/2022 17:53:26] "GET / HTTP/1.1" 200 187012
+[12/Aug/2022 17:53:26] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[12/Aug/2022 17:53:27] "GET /static/https%3A/fonts.googleapis.com/css%3Ffamily%3DNunito%3A200%2C200i%2C300%2C300i%2C400%2C400i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i HTTP/1.1" 404 1959
+[12/Aug/2022 17:53:27] "GET /static/css/sb-admin-2.min.css HTTP/1.1" 304 0
+Not Found: /vendor/jquery/jquery.min.js
+[12/Aug/2022 17:53:27] "GET /vendor/jquery/jquery.min.js HTTP/1.1" 404 2396
+Not Found: /vendor/bootstrap/js/bootstrap.bundle.min.js
+[12/Aug/2022 17:53:27] "GET /vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 404 2444
+Not Found: /vendor/jquery-easing/jquery.easing.min.js
+[12/Aug/2022 17:53:27] "GET /vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 404 2438
+Not Found: /js/sb-admin-2.min.js
+[12/Aug/2022 17:53:27] "GET /js/sb-admin-2.min.js HTTP/1.1" 404 2375
+Not Found: /vendor/chart.js/Chart.min.js
+[12/Aug/2022 17:53:27] "GET /vendor/chart.js/Chart.min.js HTTP/1.1" 404 2399
+Not Found: /js/demo/chart-area-demo.js
+[12/Aug/2022 17:53:27] "GET /js/demo/chart-area-demo.js HTTP/1.1" 404 2393
+Not Found: /img/undraw_profile_1.svg
+[12/Aug/2022 17:53:27] "GET /img/undraw_profile_1.svg HTTP/1.1" 404 2387
+Not Found: /js/demo/chart-pie-demo.js
+Not Found: /img/undraw_profile_2.svg
+[12/Aug/2022 17:53:27] "GET /js/demo/chart-pie-demo.js HTTP/1.1" 404 2390
+[12/Aug/2022 17:53:27] "GET /img/undraw_profile_2.svg HTTP/1.1" 404 2387
+Not Found: /img/undraw_profile_3.svg
+[12/Aug/2022 17:53:27] "GET /img/undraw_profile_3.svg HTTP/1.1" 404 2387
+[12/Aug/2022 17:53:27] "GET /static/img/job.svg HTTP/1.1" 304 0
+[12/Aug/2022 17:53:27] "GET /static/img/princess.png HTTP/1.1" 304 0
+[12/Aug/2022 17:53:27] "GET /static/img/queen.png HTTP/1.1" 304 0
+[12/Aug/2022 17:53:27] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[12/Aug/2022 17:53:27] "GET /static/img/fitness.png HTTP/1.1" 304 0
+[12/Aug/2022 17:53:27] "GET /static/music.mp3 HTTP/1.1" 404 1658
